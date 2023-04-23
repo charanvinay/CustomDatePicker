@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
 
-export const primary = "#176ede";
-
 function App() {
   const currentYear = new Date().getFullYear();
   const [selectedDate, setSelectedDate] = useState("");
